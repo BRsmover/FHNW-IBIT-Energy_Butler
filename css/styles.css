@@ -1,5 +1,5 @@
 html {
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     line-height: 1.15;
 }
 
@@ -25,12 +25,6 @@ html {
     color: black;
 }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
 /*----------------------------------------------------------------------------------------------------------*/
 
 /* Add some padding and a grey background color to containers */
@@ -40,17 +34,18 @@ html {
 
 /* Style the input elements and the submit button */
 input[type=text], input[type=submit] {
-    width: 100%;
+    width: 50%;
     padding: 12px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid lightgreen;
     box-sizing: border-box;
 }
 
 /* Style the submit button */
 input[type=submit] {
-    background-color: #4CAF50;
+    /*background-color: #4CAF50;*/
+    background-color: green;
     color: white;
     border: none;
 }
@@ -61,11 +56,12 @@ input[type=submit]:hover {
 
 /*----------------------------------------------------------------------------------------------------------*/
 
-table, th, td {
-    border: 1px solid black;
+table {
+    width: 75%;
+    text-align: center;
     border-collapse: collapse;
 }
 
-table, th, td {
-    border: 1px solid black;
+caption {
+    font-weight: bold;
 }
